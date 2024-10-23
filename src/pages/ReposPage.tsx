@@ -21,6 +21,8 @@ export default function ReposPage() {
     
   
     return (
+      
+
       <div className="p-2 grid grid-cols-3 gap-4">
         {data?.map(repo =>(
           <Card key={repo.id} repository={repo} isFavorite={favoriteReposIds.includes(repo.id)} />
