@@ -1,4 +1,4 @@
-import React from "react";
+
 import useCounterStore from "../store/counterStore";
 
 export default function CounterPage() {
