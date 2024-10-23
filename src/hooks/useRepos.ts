@@ -11,7 +11,7 @@ async function getRepos() {
   }
 }
 
-
+//Server State Solution
 export function useFetchRepositories(){
     return useQuery<ReposType[]>({
         queryKey: ["repos"],
